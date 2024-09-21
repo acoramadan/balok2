@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:id="@+id/input"
+       android:layout_width="match_parent"
+       android:layout_height="300dp"
+       android:padding="20dp"
+       android:orientation="vertical">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/panjang"
+           android:layout_marginTop="10dp"
+           android:layout_marginStart="10dp"
+           android:textSize="8pt"
+           />
+       <EditText
+           android:id="@+id/panjang"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_marginStart="10dp"
+           android:layout_marginEnd="10dp"
+           android:inputType="numberDecimal" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/lebar"
+           android:layout_marginTop="10dp"
+           android:layout_marginStart="10dp"
+           android:textSize="8pt"/>
+       <EditText
+           android:id="@+id/lebar"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_marginStart="10dp"
+           android:layout_marginEnd="10dp"
+           android:inputType="numberDecimal"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="10dp"
+
+           android:text="@string/tinggi"
+           android:textSize="8pt"
+           android:layout_marginTop="10dp"/>
+       <EditText
+           android:id="@+id/tinggi"
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_marginStart="10dp"
+           android:inputType="number"
+           android:layout_marginEnd="10dp"/>
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/input">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="150dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:text="@string/hitung"
+            android:backgroundTint="@color/yellow"/>
+      <LinearLayout
+          android:layout_width="300dp"
+          android:layout_height="120dp"
+          android:layout_gravity="center">
+          <TextView
+              android:id="@+id/hasil"
+              android:layout_width="150dp"
+              android:layout_height="62dp"
+              android:layout_gravity="center"
+              android:text="@string/hasil"
+              android:textAlignment="center"
+              android:textSize="13pt"
+              android:textStyle="bold"/>
+          <TextView
+              android:id="@+id/jumlah"
+              android:layout_width="150dp"
+              android:layout_height="62dp"
+              android:layout_gravity="center"
+              android:textStyle="bold"
+              android:textSize="13pt"/>
+      </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
