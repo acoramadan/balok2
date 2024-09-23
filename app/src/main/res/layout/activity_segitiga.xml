@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="bangkit2024.MufliDevs.bangkit2024.SegiEmpat">
+    tools:context="bangkit2024.MufliDevs.bangkit2024.SegitigaActivity">
 
     <LinearLayout
         android:id="@+id/header"
@@ -26,7 +26,7 @@
     <LinearLayout
         android:id="@+id/input"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="300dp"
         android:padding="20dp"
         android:orientation="vertical"
         app:layout_constraintTop_toBottomOf="@id/header">
@@ -34,21 +34,25 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/luas_alas"
+            android:text="@string/alas"
             android:layout_marginTop="10dp"
             android:layout_marginStart="10dp"
-            android:textSize="8pt"/>
+            android:textSize="8pt"
+            />
         <EditText
-            android:id="@+id/luas"
+            android:id="@+id/alas"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            android:inputType="numberDecimal"/>
+            android:inputType="numberDecimal" />
+
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
+
             android:text="@string/tinggi"
             android:textSize="8pt"
             android:layout_marginTop="10dp"/>

@@ -13,4 +13,8 @@
     <string name="bola">bola</string>
     <string name="balok">balok</string>
     <string name="segiempat">segiempat</string>
+    <string name="alas">Alas</string>
+    <string name="jari_jari">Jari-Jari</string>
+    <string name="sisi">Sisi</string>
+    <string name="luas_alas">Luas Alas</string>
 </resources>
