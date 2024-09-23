@@ -5,4 +5,12 @@
     <string name="tinggi">Tinggi</string>
     <string name="hitung">Hitung</string>
     <string name="hasil">HASIL :</string>
+    <string name="program_menghitung_bangun_ruang">PROGRAM MENGHITUNG BANGUN RUANG</string>
+    <string name="volume_segitiga">segitiga</string>
+    <string name="kubus">kubus</string>
+    <string name="tabung">tabung</string>
+    <string name="kerucut">kerucut</string>
+    <string name="bola">bola</string>
+    <string name="balok">balok</string>
+    <string name="segiempat">segiempat</string>
 </resources>

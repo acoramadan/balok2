@@ -1,4 +1,4 @@
-package com.MufliDevs.bangkit2024
+package bangkit2024.MufliDevs.bangkit2024
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -8,8 +8,7 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import com.MufliDevs.bangkit2024.R
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var panjang: EditText
@@ -22,6 +21,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         private const val STATE_RESULT = "state_result"
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         button = findViewById(R.id.button)
         hasil = findViewById(R.id.jumlah)
 
+        // using lambda for the instead making a new function.
         button.setOnClickListener {
             val p = panjang.text.toString().trim()
             val l = lebar.text.toString().trim()

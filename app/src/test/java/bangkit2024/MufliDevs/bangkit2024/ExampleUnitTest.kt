@@ -1,4 +1,4 @@
-package com.MufliDevs.bangkit2024
+package bangkit2024.MufliDevs.bangkit2024
 
 import org.junit.Test
 
