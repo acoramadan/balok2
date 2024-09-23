@@ -19,7 +19,7 @@
             android:name="bangkit2024.MufliDevs.bangkit2024.BolaActivity"
             android:exported="false" />
         <activity
-            android:name="bangkit2024.MufliDevs.bangkit2024.tabungActivity"
+            android:name="bangkit2024.MufliDevs.bangkit2024.TabungActivity"
             android:exported="false" />
         <activity
             android:name="bangkit2024.MufliDevs.bangkit2024.KubusActivity"
